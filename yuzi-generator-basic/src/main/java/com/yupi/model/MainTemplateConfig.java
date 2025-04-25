@@ -23,4 +23,5 @@ public class MainTemplateConfig {
      * 输出信息，默认值是 sum =
      */
     private String outputText = "sum = ";
+
 }
