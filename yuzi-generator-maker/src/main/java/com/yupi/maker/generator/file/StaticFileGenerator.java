@@ -9,7 +9,7 @@ import cn.hutool.core.io.FileUtil;
  * @description
  * @since 3.0.0
  */
-public class StaticGenerator {
+public class StaticFileGenerator {
 
     /*
         使用Hutool工具库实现目录复制功能

@@ -17,7 +17,7 @@ import java.io.Writer;
  * @description 动态文件生成
  * @since 3.0.0
  */
-public class DynamicGenerator {
+public class DynamicFileGenerator {
 
     /**
      * 生成文件
