@@ -74,6 +74,7 @@ public abstract class GenerateTemplate {
         // 读取 resources 目录
         ClassPathResource classPathResource = new ClassPathResource("");
         String inputResourcePath = classPathResource.getAbsolutePath();
+//        String inputResourcePath = "";
 
         // Java 包基础路径
         String outputBasePackage = meta.getBasePackage();
@@ -119,7 +120,7 @@ public abstract class GenerateTemplate {
         DynamicFileGenerator.doGenerate(inputFilePath , outputFilePath, meta);
 
         // generator.MainGenerator
-        inputFilePath = inputResourcePath + File.separator + "templates/java/generator/MainGenerator.java.ftl";
+        inputFilePath = inputResourcePath + "templates/java/generator/MainGenerator.java.ftl";
         outputFilePath = outputBaseJavaPackagePath + "/generator/MainGenerator.java";
         DynamicFileGenerator.doGenerate(inputFilePath , outputFilePath, meta);
 
